@@ -1,2 +1,0 @@
-# inteligencia-detleng
-inteligencia-detleng
