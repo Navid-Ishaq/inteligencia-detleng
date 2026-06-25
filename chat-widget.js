@@ -128,7 +128,7 @@ margin-top:5px;
 letter-spacing:.3px;
 ">
 
-Your Intelligent AI Assistant
+Tu IA de decisiones claras
 
 </div>
 
