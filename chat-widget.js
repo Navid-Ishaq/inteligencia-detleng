@@ -161,7 +161,8 @@ color:#111827;
 margin-bottom:12px;
 ">
 
-👋 Hello!
+
+👋 ¡Hola!
 
 </div>
 
@@ -172,16 +173,16 @@ color:#444;
 margin:0;
 ">
 
-Thank you for visiting
+Gracias por visitar
 <b>Inteligencia DeTLeng.</b>
 
 <br><br>
 
-🚀 Our AI Assistant is currently under development.
+🚀 Nuestro Asistente IA se encuentra actualmente en desarrollo.
 
 <br><br>
 
-Very soon you'll be able to chat with us about:
+Muy pronto podrás conversar con nosotros sobre:
 
 </p>
 
@@ -191,17 +192,17 @@ line-height:2;
 color:#374151;
 ">
 
-<li>🤖 AI Agents</li>
+<li>📊 Analítica de Datos</li>
 
-<li>⚙ Business Automation</li>
+<li>💡 Inteligencia de Negocio</li>
 
-<li>📊 Data Engineering</li>
+<li>🧠 IA Aplicada</li>
 
-<li>🔄 ETL Pipelines</li>
+<li>📈 Insights Estratégicos</li>
 
-<li>☁ Cloud Solutions</li>
+<li>👥 Audiencias y Contenido</li>
 
-<li>💡 AI Consulting</li>
+<li>🚀 Transformación Digital</li>
 
 </ul>
 
@@ -217,18 +218,20 @@ line-height:1.7;
 border:1px solid #bfdbfe;
 ">
 
-🚀 <strong>AI Assistant Launching Soon</strong>
+🚀 <strong>Próximamente: Asistente IA de Inteligencia DeTLeng</strong>
 
 <br><br>
 
-We are building an intelligent AI assistant to help you with
-AI Agents, Business Automation, Data Engineering and Cloud Solutions.
+Estamos creando un asistente inteligente para ayudarte con
+Analítica, IA Aplicada, Business Intelligence e Insights Estratégicos.
 
 <br><br>
 
-✨ Stay tuned — exciting features are coming very soon.
+✨ Convierte la información en decisiones más inteligentes.
 
 </div>
+
+
 
 </div>
 
