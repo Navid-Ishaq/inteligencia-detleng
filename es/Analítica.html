@@ -1166,110 +1166,125 @@ href="mailto:info@detleng.com?subject=Solicitud%20de%20Consulta%20Gratuita&body=
 
 <style>
 
-.detleng-sticky-btn{
-    position:fixed;
-    bottom:20px;
-    left:400px;
+.detleng-center-btn{
 
-    display:flex;
-    align-items:center;
-    justify-content:flex-start;
-    gap:8px;
+position:fixed;
 
-    background:linear-gradient(
-        135deg,
-        #0033CC 0%,
-        #005BFF 50%,
-        #33D6FF 100%
-    );
+left:50%;
+bottom:18px;
 
-    color:#FFD700;
+transform:translateX(-50%);
 
-    padding:12px 22px;
+width:62px;
+height:62px;
 
-    border-radius:10px;
-    text-decoration:none;
+border-radius:50%;
 
-    font-family:Inter,sans-serif;
-    font-size:18px;
-    font-weight:700;
+display:flex;
+align-items:center;
+justify-content:center;
 
-    box-shadow:
-    0 4px 15px rgba(0,91,255,0.35),
-    0 0 12px rgba(255,215,0,0.30);
+text-decoration:none;
 
-    z-index:99999;
+font-size:30px;
+font-weight:bold;
 
-    transition:all .3s ease;
-}
+color:#ffffff;
 
-.detleng-sticky-btn:hover{
-    background:linear-gradient(
-        135deg,
-        #003FC7 0%,
-        #0A63FF 70%,
-        #F7941D 100%
-    );
-    transform:translateY(-2px);
-}
+background:linear-gradient(
+135deg,
+#0033CC 0%,
+#005BFF 55%,
+#33D6FF 100%
+);
 
-@media (max-width:768px){
+box-shadow:
+0 0 10px rgba(0,91,255,.45),
+0 0 20px rgba(0,91,255,.35),
+0 0 35px rgba(51,214,255,.30);
 
-.detleng-sticky-btn{
-    bottom:10px;
-    left:10px;
+z-index:999999;
 
-    padding:14px 20px;
-    font-size:16px;
-    border-radius:10px;
-}
+transition:.35s ease;
+
+animation:
+detlengGlow 2.5s infinite,
+detlengFloat 2.8s ease-in-out infinite;
 
 }
+
+.detleng-center-btn:hover{
+
+transform:translateX(-50%) scale(1.12);
+
+box-shadow:
+0 0 15px rgba(255,215,0,.55),
+0 0 35px rgba(0,91,255,.55),
+0 0 50px rgba(51,214,255,.45);
+
+}
+
+@keyframes detlengGlow{
+
+0%{
+box-shadow:
+0 0 8px rgba(0,91,255,.35),
+0 0 18px rgba(0,91,255,.30),
+0 0 28px rgba(51,214,255,.20);
+}
+
+50%{
+box-shadow:
+0 0 18px rgba(255,215,0,.45),
+0 0 38px rgba(0,91,255,.50),
+0 0 55px rgba(51,214,255,.40);
+}
+
+100%{
+box-shadow:
+0 0 8px rgba(0,91,255,.35),
+0 0 18px rgba(0,91,255,.30),
+0 0 28px rgba(51,214,255,.20);
+}
+
+}
+
+@keyframes detlengFloat{
+
+0%,100%{
+transform:translateX(-50%) translateY(0);
+}
+
+50%{
+transform:translateX(-50%) translateY(-4px);
+}
+
+}
+
+@media(max-width:768px){
+
+.detleng-center-btn{
+
+width:58px;
+height:58px;
+
+bottom:12px;
+
+font-size:28px;
+
+}
+
+}
+
 </style>
 
 
 
-
-<div style="
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-margin:0 20px;
-font-size:13px;
-font-weight:700;
-line-height:1.2;
-">
-
-<a href="https://inteligencia.detleng.com/index.html"
-style="color:#2563EB;text-decoration:none;">
-🇬🇧 EN
+<a class="detleng-center-btn"
+href="#"
+title="Switch">
+⇄
 </a>
-
-<a href="https://inteligencia.detleng.com/es/index.html"
-style="color:#2563EB;text-decoration:none;">
-🇪🇸 ES
-</a>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
