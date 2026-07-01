@@ -24,7 +24,7 @@ font-size:18px;
 font-weight:700;
 margin-top:2px;
 ">
-Preguntar
+Hola IA
 </div>
 
 </div>
@@ -204,7 +204,7 @@ Inteligencia DeTLeng ayuda a las organizaciones a transformar información en me
         border-radius:6px;
         cursor:pointer;
       ">
-      Preguntar
+      Hola IA
     </button>
 
   </div>
